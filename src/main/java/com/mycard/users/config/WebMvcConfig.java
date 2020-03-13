@@ -1,4 +1,4 @@
-package com.mycard.cards.config;
+package com.mycard.users.config;
 
 import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory;

@@ -1,4 +1,4 @@
-package com.mycard.cards.dto;
+package com.mycard.users.dto;
 
 import lombok.Data;
 

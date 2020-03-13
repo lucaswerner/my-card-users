@@ -1,4 +1,4 @@
-package com.mycard.cards.config;
+package com.mycard.users.config;
 
 import com.google.common.base.Optional;
 import com.google.common.base.Predicates;

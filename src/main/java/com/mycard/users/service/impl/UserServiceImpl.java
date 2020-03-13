@@ -1,8 +1,8 @@
-package com.mycard.cards.service.impl;
+package com.mycard.users.service.impl;
 
-import com.mycard.cards.entity.User;
-import com.mycard.cards.repository.UserRepository;
-import com.mycard.cards.service.UserService;
+import com.mycard.users.entity.User;
+import com.mycard.users.repository.UserRepository;
+import com.mycard.users.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

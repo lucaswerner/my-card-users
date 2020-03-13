@@ -1,9 +1,9 @@
-package com.mycard.cards.controller;
+package com.mycard.users.controller;
 
-import com.mycard.cards.dto.PostUserDTO;
-import com.mycard.cards.dto.UserDTO;
-import com.mycard.cards.entity.User;
-import com.mycard.cards.service.UserService;
+import com.mycard.users.dto.PostUserDTO;
+import com.mycard.users.dto.UserDTO;
+import com.mycard.users.entity.User;
+import com.mycard.users.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

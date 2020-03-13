@@ -1,6 +1,6 @@
-package com.mycard.cards.service;
+package com.mycard.users.service;
 
-import com.mycard.cards.entity.User;
+import com.mycard.users.entity.User;
 
 import java.util.List;
 import java.util.Optional;

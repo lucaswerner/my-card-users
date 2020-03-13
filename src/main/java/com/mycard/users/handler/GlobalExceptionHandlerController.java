@@ -1,4 +1,4 @@
-package com.mycard.cards.handler;
+package com.mycard.users.handler;
 
 import org.springframework.boot.web.servlet.error.DefaultErrorAttributes;
 import org.springframework.context.annotation.Bean;

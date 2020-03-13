@@ -1,4 +1,4 @@
-package com.mycard.cards.entity;
+package com.mycard.users.entity;
 
 import lombok.Data;
 

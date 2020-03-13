@@ -1,4 +1,4 @@
-package com.mycard.cards.config;
+package com.mycard.users.config;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.springframework.context.annotation.Bean;
