@@ -3,6 +3,8 @@ package com.mycard.users.service.impl;
 import com.mycard.users.entity.User;
 import com.mycard.users.repository.UserRepository;
 import com.mycard.users.service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +13,8 @@ import java.util.Optional;
 
 @Service
 public class UserServiceImpl implements UserService {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Autowired
     private UserRepository userRepository;
@@ -31,6 +35,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User saveUser(User user) {
+        LOGGER.info("Saving new user!");
         return userRepository.save(user);
     }
 
@@ -48,6 +53,7 @@ public class UserServiceImpl implements UserService {
         userFromDB.setLastName(user.getLastName());
         userFromDB.setStActive(user.getStActive());
 
+        LOGGER.info("updating user!");
         return Optional.of(userRepository.save(userFromDB));
     }
 }

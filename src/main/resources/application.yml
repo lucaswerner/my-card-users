@@ -1,9 +1,9 @@
 spring:
   application:
-    name: 'users'
+    name: 'my-card-users'
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
 
 server:
   port: 8081
