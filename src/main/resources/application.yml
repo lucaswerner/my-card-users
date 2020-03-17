@@ -1,4 +1,9 @@
 spring:
+  datasource:
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+    url: jdbc:mysql://localhost:3306/my_card_users?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: mypassword
   application:
     name: 'my-card-users'
   jpa:
